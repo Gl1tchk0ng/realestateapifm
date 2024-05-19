@@ -1,0 +1,61 @@
+property_id,property_name,address,city,state
+1,Tranquil Hilltop Haven,"123 Coonoor Road, Coonoor Hills",Coonoor,Tamil Nadu
+2,Serene Backwater Retreat,"456 Vembanad Lake Road, Kumarakom",Kumarakom,Kerala
+3,Heritage Haveli in Pink City,"789 Hawa Mahal Road, Jaipur City Center",Jaipur,Rajasthan
+4,Luxurious Goa Beachfront Villa,"1011 Candolim Beach Road, North Goa",Candolim,Goa
+5,Spacious Farmhouse near Aravalli Hills,"1213 Aravalli View Road, Gurgaon",Gurgaon,Haryana
+6,Modern Mumbai High-Rise Apartment,"1415 Marine Drive, Nariman Point",Mumbai,Maharashtra
+7,Cozy Houseboat in Kerala Backwaters,"1617 Allepey Backwaters, Alappuzha",Alappuzha,Kerala
+8,Secluded Himalayan Cottage,"1819 Manali Road, Himachal Pradesh",Manali,Himachal Pradesh
+9,Colonial-Style Bungalow in Pondicherry,"2021 French Quarter Road, Pondicherry",Pondicherry,Punjab
+10,Vibrant Apartment in Pune's Koregaon Park,"2223 Koregaon Park Road, Pune",Pune,Maharashtra
+11,Ancestral Wada near Ajanta and Ellora Caves,"123 Shirdi Road, Aurangabad",Aurangabad,Maharashtra
+12,Tranquil Tea Estate Bungalow in Darjeeling,"456 Lebong Cart Road, Darjeeling",Darjeeling,West Bengal
+13,Modern Studio in Bangalore's IT Corridor,"789 Outer Ring Road, Bengaluru",Bengaluru,Karnataka
+14,"Heritage Haveli near Hawa Mahal, Jaipur","1011 Hawa Mahal Road, Jaipur City Center (Haveli 2)",Jaipur,Rajasthan
+15,Beachfront Apartment in Goa's Calangute Beach,"1213 Calangute Beach Road, North Goa",Calangute,Goa
+16,Luxurious Apartment in Kolkata's Alipore Area,"1415 Alipore Road, Kolkata",Kolkata,West Bengal
+17,Stone House with Rooftop View in Munnar,"1617 Pallivasal Road, Munnar",Munnar,Kerala
+18,Renovated French Villa in Pondicherry,"1819 Romain Rolland Street, Pondicherry",Pondicherry,Punjab
+19,Serene Apartment in Hyderabad's Jubilee Hills,"2021 Jubilee Hills Road, Hyderabad",Hyderabad,Telangana
+20,Traditional Keralan Houseboat,"2223 Ashtamudi Lake, Kollam",Kollam,Kerala
+21,Sunshine Apartments,123 Elm Street,Coonoor,Tamil Nadu
+22,Green Valley Villa,456 Oak Avenue,Kumarakom,Kerala
+23,Ocean View Residency,789 Pine Lane,Jaipur,Rajasthan
+24,Skyline Towers,101 Maple Boulevard,Candolim,Goa
+25,Harmony Homes,202 Birch Road,Gurgaon,Haryana
+26,Golden Gate Apartments,303 Cedar Street,Mumbai,Maharashtra
+27,Lakeside Villa,404 Willow Lane,Alappuzha,Kerala
+28,Mountain Retreat,505 Aspen Avenue,Manali,Himachal Pradesh
+29,Urban Heights,606 Cypress Road,Pondicherry,Punjab
+30,Riverfront Flats,707 Palm Street,Aurangabad,Maharashtra
+31,Garden Estate,808 Magnolia Boulevard,Darjeeling,West Bengal
+32,Meadow Apartments,909 Juniper Lane,Bengaluru,Karnataka
+33,Palm Residency,1010 Chestnut Road,Kolkata,West Bengal
+34,Maple Villa,1111 Dogwood Street,Calangute,Goa
+35,Pearl Residency,1212 Redwood Lane,Hyderabad,Telangana
+36,Eagle Nest,1313 Sequoia Avenue,Munnar,Kerala
+37,Sunset Apartments,1414 Spruce Street,Pondicherry,Punjab
+38,Silver Sands,1515 Alder Lane,Kollam,Kerala
+39,Orchid Mansion,1616 Fir Road,Ahmedabad,Gujarat
+40,Crystal Residency,1717 Hawthorn Street,Bhopal,Madhya Pradesh
+41,Emerald Heights,1818 Hazel Lane,Chandigarh,Punjab
+42,Prestige Villa,1919 Walnut Boulevard,Chennai,Tamil Nadu
+43,Royal Residency,2020 Poplar Street,Coimbatore,Tamil Nadu
+44,Blue Lagoon Apartments,2121 Sycamore Road,Dehradun,Uttarakhand
+45,Hilltop Mansion,2222 Hickory Lane,Guwahati,Assam
+46,City Lights Apartments,2323 Larch Street,Indore,Madhya Pradesh
+47,Spring Villa,2424 Mulberry Lane,Jaisalmer,Rajasthan
+48,Vista Residency,2525 Beech Road,Jodhpur,Rajasthan
+49,Diamond Apartments,2626 Holly Street,Kochi,Kerala
+50,Sunrise Residency,2727 Ivy Lane,Lucknow,Uttar Pradesh
+51,Coral Villa,2828 Locust Road,Mysore,Karnataka
+52,Paradise Apartments,2929 Magnolia Boulevard,Patna,Bihar
+53,Amber Residency,3030 Linden Lane,Puri,Odisha
+54,Bay View Flats,3131 Cedar Road,Shimla,Himachal Pradesh
+55,Riverside Apartments,3232 Pine Street,Srinagar,Jammu and Kashmir
+56,Cedar Villa,3333 Oak Lane,Surat,Gujarat
+57,Lavender Mansion,3434 Birch Road,Thiruvananthapuram,Kerala
+58,Pine Villa,3535 Maple Street,Varanasi,Uttar Pradesh
+59,Sunflower Residency,3636 Elm Lane,Ahmedabad,Gujarat
+60,Maple Heights,3737 Aspen Road,Kolkata,West Bengal
