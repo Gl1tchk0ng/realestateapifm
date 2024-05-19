@@ -8,7 +8,7 @@ router = APIRouter()
 
 @router.post("/properties/", response_description="Add new property", response_model=PropertySchema)
 async def create_new_property(property: PropertySchema):
-    property_dict = property.Dict()
+    property_dict = property.model_dump()
     new_property = await PropertyCRUD.create_new_property(property_dict)
     return parse_property_result(new_property)
 
@@ -21,7 +21,7 @@ async def fetch_property_details(city_name: str):
 
 @router.put("/properties/{property_id}", response_description="Update property details", response_model=PropertySchema)
 async def update_property_details(property_id: int, property: UpdateProperty):
-    update_data = {k: v for k, v in property.Dict().items() if v is not None}
+    update_data = {k: v for k, v in property.model_dump().items() if v is not None}
     updated_property = await PropertyCRUD.update_property_details(property_id, update_data)
     if updated_property:
         return parse_property_result(updated_property)
