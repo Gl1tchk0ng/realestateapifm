@@ -9,9 +9,9 @@ class PropertyCRUD:
         return created_property
 
     @staticmethod
-    async def fetch_property_details(city_name: str) -> List[Dict[str, Any]]:
+    async def fetch_property_details(city: str) -> List[Dict[str, Any]]:
         properties = []
-        async for property in properties_collection.find({"city_name": city_name}):
+        async for property in properties_collection.find({"city": city}):
             properties.append(property)
         return properties
 

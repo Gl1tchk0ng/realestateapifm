@@ -12,12 +12,12 @@ async def create_new_property(property: PropertySchema):
     new_property = await PropertyCRUD.create_new_property(property_dict)
     return parse_property_result(new_property)
 
-@router.get("/properties/{city_name}", response_description="Get properties by city name", response_model=List[PropertySchema])
-async def fetch_property_details(city_name: str):
-    properties = await PropertyCRUD.fetch_property_details(city_name)
+@router.get("/properties/{city}", response_description="Get properties by city name", response_model=List[PropertySchema])
+async def fetch_property_details(city: str):
+    properties = await PropertyCRUD.fetch_property_details(city)
     if properties:
         return [parse_property_result(prop) for prop in properties]
-    raise HTTPException(status_code=404, detail=f"No properties found in {city_name}.")
+    raise HTTPException(status_code=404, detail=f"No properties found in {city}.")
 
 @router.put("/properties/{property_id}", response_description="Update property details", response_model=PropertySchema)
 async def update_property_details(property_id: int, property: UpdateProperty):

@@ -18,7 +18,7 @@ def parse_property_result(result: Any) -> Dict[str, Any]:
         "property_id": result.get("property_id"),
         "property_name": result.get("property_name"),
         "address": result.get("address"),
-        "city_name": result.get("city_name"),
+        "city": result.get("city"),
         "state": result.get("state")
     }
 

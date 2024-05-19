@@ -5,7 +5,7 @@ class PropertySchema(BaseModel):
     property_id: int = Field(...)
     property_name: str = Field(...)
     address: str = Field(...)
-    city_name: str = Field(...)
+    city: str = Field(...)
     state: str = Field(...)
 
     class Config:
@@ -14,7 +14,7 @@ class PropertySchema(BaseModel):
                 "property_id": 1,
                 "property_name": "Green Villa",
                 "address": "123 Main Street",
-                "city_name": "Jaipur",
+                "city": "Jaipur",
                 "state": "Rajasthan",
             }
         }
@@ -22,7 +22,7 @@ class PropertySchema(BaseModel):
 class UpdateProperty(BaseModel):
     property_name: Optional[str]
     address: Optional[str]
-    city_name: Optional[str]
+    city: Optional[str]
     state: Optional[str]
 
     class Config:
@@ -30,7 +30,7 @@ class UpdateProperty(BaseModel):
             "example": {
                 "property_name": "Blue Villa",
                 "address": "456 Elm Street",
-                "city_name": "Delhi",
+                "city": "Delhi",
                 "state": "Delhi",
             }
         }
