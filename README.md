@@ -47,7 +47,13 @@ mongoimport --db your_database_name --collection properties --type csv --headerl
 ```
 and with that we have our database set to work with 
 
+Hereafter just go onto the browser and access the 
 
+```bash
+localhost:8081 --> for the MongoDB web interface
+
+localhost:8000/docs --> To access and test the endpoints  
+```
 ## Demo
 
 [Demonstration of the API's build for the project](https://drive.google.com/file/d/1IYCBXJWJytAa95Txy9_29FujNNMdKI6_/view?usp=sharing).
