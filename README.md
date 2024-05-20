@@ -50,5 +50,15 @@ and with that we have our database set to work with
 
 ## Demo
 
-Insert gif or link to demo
+[Demonstration of the API's build for the project](https://drive.google.com/file/d/1IYCBXJWJytAa95Txy9_29FujNNMdKI6_/view?usp=sharing).
+
+
+
+## Features
+
+- Create new Porperty for it to be in the database
+- Fetch all the properties based on the city
+- Update an existing record of a property based on the id 
+- Find all cities in the database based on state
+- Find similar properties based on the property_id this fucntion searches for properties of the same city and state 
 
