@@ -21,16 +21,3 @@ def parse_property_result(result: Any) -> Dict[str, Any]:
         "city": result.get("city"),
         "state": result.get("state")
     }
-
-def parse_city_result(result: Any) -> Dict[str, Any]:
-    return {
-        "city_id": result.get("city_id"),
-        "city_name": result.get("city_name"),
-        "state_id": result.get("state_id")
-    }
-
-def parse_state_result(result: Any) -> Dict[str, Any]:
-    return {
-        "state_id": result.get("state_id"),
-        "state_name": result.get("state_name")
-    }
